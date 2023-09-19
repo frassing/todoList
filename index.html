@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-do List</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<main class="main">
+		<h1 class="title">To-do list</h1>
+		<div class="img">
+			<img src="./assets/img/addtasks-bro.svg" alt="ilustração painel de tarefas">
+		</div>
+	
+		<div class="toDo_container">
+	
+			<input type="text" name="toDoInput" id="inputToDo">
+			
+			<div class="toDo_actions">
+				<button type="button" id="btn_new" class="btn">Nova tarefa</button>
+				<button type="reset" id="btn_reset" class="btn">Apagar lista</button>
+			</div>
+	
+			<ul class="toDo_list" id="listToDo">
+				<!-- Lis serão adicionadas dinamicamente pelo js -->
+			</ul>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="creditos">
+			<ul class="creditos_list">
+				<li>
+					Ilustração de bro <a href="https://storyset.com/illustration/add-tasks/bro" target="_blank">by Storyset</a>
+				</li>
+
+				<li>To-do list inspirada em <a href="https://www.w3schools.com/howto/howto_js_todolist.asp" target="_blank">w3schools</a> e <a href="https://medium.com/walternascimentobarroso-pt/criando-um-todo-com-javascript-8622331367eb" target="_blank">Walter Nascimento</a>
+				</li>
+
+				<li>
+					Efeito de glassmorphism gerado em <a href="https://hype4.academy/tools/glassmorphism-generator" target="_blank">Hype4.Academy</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="footer_socials">
+			<a href="https://www.linkedin.com/in/raquel-frassing/">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="https://github.com/frassing">
+				<i class="fab fa-github-square"></i>
+			</a>
+			<a href="https://www.instagram.com/fra.ssing/">
+				<i class="fab fa-instagram-square"></i>
+			</a>
+	</div>
+
+		<p class="copyright">&copy; 2023 | Desenvolvido por Raquel Roessing</p>
+	</footer>
+	
+
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>
